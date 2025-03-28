@@ -44,14 +44,3 @@ When connecting the project to a fresh empty database ensure the appropriate con
 ```
 $ flask init
 ```
-
-# Database Migrations
-If changes to the models are made, the database must be'migrated' so that it can be synced with the new models.
-Then execute following commands using manage.py. More info [here](https://flask-migrate.readthedocs.io/en/latest/)
-
-```
-$ flask db init
-$ flask db migrate
-$ flask db upgrade
-$ flask db --help
-```
