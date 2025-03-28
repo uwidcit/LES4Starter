@@ -1,6 +1,5 @@
 import os, csv
 from flask import Flask, redirect, render_template, jsonify, request, send_from_directory, flash, url_for
-from flask_cors import CORS
 from sqlalchemy.exc import OperationalError, IntegrityError
 from App.models import db, User, Student, Review
 from datetime import timedelta
